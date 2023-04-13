@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "7t0FuGudFzoCeiblgkfOo/+kQzkC8h190g98zxDQTi5HiPhO5ZVyevqxvoJqSqy7f006fVSR8DsyTwEYwXeExw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuran\\source\\repos\\Podgotovka\\Podgotovka\\Podgotovka.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuran\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\yuran\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

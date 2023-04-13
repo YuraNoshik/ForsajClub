@@ -1,0 +1,15 @@
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\Podgotovka.exe.config
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\Podgotovka.exe
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\Podgotovka.pdb
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\EntityFramework.dll
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.Form1.resources
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.Properties.Resources.resources
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.csproj.CopyComplete
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.exe
+C:\Users\yuran\source\repos\Podgotovka\Podgotovka\obj\Debug\Podgotovka.pdb

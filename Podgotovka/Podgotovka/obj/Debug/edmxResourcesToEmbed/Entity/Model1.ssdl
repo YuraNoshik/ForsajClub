@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище ObuvModel" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="categoryID" />
+    </Key>
+    <Property Name="categoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="categoryName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="userID" />
+    </Key>
+    <Property Name="userID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userSurname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="userName" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="userPatronymic" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="userLogin" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="userPassword" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="userRole" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Manufacturer">
+    <Key>
+      <PropertyRef Name="manufacturerID" />
+    </Key>
+    <Property Name="manufacturerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="manufacturerName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="productID" />
+    </Key>
+    <Property Name="productID" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="productName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="productUnit" Type="nvarchar(max)" />
+    <Property Name="productCost" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="productManufacturer" Type="int" />
+    <Property Name="productProvider" Type="int" />
+    <Property Name="productCategory" Type="int" />
+    <Property Name="productMaxDiscountAmount" Type="tinyint" />
+    <Property Name="productActiveDiscountAmount" Type="tinyint" />
+    <Property Name="productQuantityInStock" Type="int" Nullable="false" />
+    <Property Name="productDescription" Type="nvarchar(max)" />
+    <Property Name="productPicture" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Provider">
+    <Key>
+      <PropertyRef Name="providerID" />
+    </Key>
+    <Property Name="providerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="providerName" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StaffRole">
+    <Key>
+      <PropertyRef Name="roleID" />
+    </Key>
+    <Property Name="roleID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="roleName" Type="nvarchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Customer__userRo__440B1D61">
+    <End Role="StaffRole" Type="Self.StaffRole" Multiplicity="1" />
+    <End Role="Customer" Type="Self.Customer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StaffRole">
+        <PropertyRef Name="roleID" />
+      </Principal>
+      <Dependent Role="Customer">
+        <PropertyRef Name="userRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__product__3D5E1FD2">
+    <End Role="Manufacturer" Type="Self.Manufacturer" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturer">
+        <PropertyRef Name="manufacturerID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="productManufacturer" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__product__3E52440B">
+    <End Role="Provider" Type="Self.Provider" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Provider">
+        <PropertyRef Name="providerID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="productProvider" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Product__product__3F466844">
+    <End Role="Category" Type="Self.Category" Multiplicity="0..1" />
+    <End Role="Product" Type="Self.Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="categoryID" />
+      </Principal>
+      <Dependent Role="Product">
+        <PropertyRef Name="productCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище ObuvModelContainer">
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Manufacturer" EntityType="Self.Manufacturer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Product" EntityType="Self.Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Provider" EntityType="Self.Provider" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StaffRole" EntityType="Self.StaffRole" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Customer__userRo__440B1D61" Association="Self.FK__Customer__userRo__440B1D61">
+      <End Role="StaffRole" EntitySet="StaffRole" />
+      <End Role="Customer" EntitySet="Customer" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__product__3D5E1FD2" Association="Self.FK__Product__product__3D5E1FD2">
+      <End Role="Manufacturer" EntitySet="Manufacturer" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__product__3E52440B" Association="Self.FK__Product__product__3E52440B">
+      <End Role="Provider" EntitySet="Provider" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Product__product__3F466844" Association="Self.FK__Product__product__3F466844">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Product" EntitySet="Product" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

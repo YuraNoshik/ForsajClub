@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="17be89e11507494888ecf269cda5e758" Name="Diagram1">
+        <EntityTypeShape EntityType="ObuvModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ObuvModel.Customer" Width="1.5" PointX="8" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ObuvModel.Manufacturer" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ObuvModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ObuvModel.Provider" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ObuvModel.StaffRole" Width="1.5" PointX="5.75" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="ObuvModel.FK__Product__product__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="ObuvModel.FK__Customer__userRo__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="ObuvModel.FK__Product__product__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="ObuvModel.FK__Product__product__3E52440B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
