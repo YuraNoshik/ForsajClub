@@ -21,113 +21,103 @@ namespace Podgotovka
             LoadPrice();
             LoadSort();
             FillGrid();
-            CountOfRows();
+            AmountOfRows();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
    
         }
+
         private void LoadPrice()
         {
-            CbFilterPrice.Items.Add("Все фильтры");
+            CbFilterPrice.Items.Add("Без фильтров");
             CbFilterPrice.Items.Add("1-15");
             CbFilterPrice.Items.Add("15-30");
             CbFilterPrice.Items.Add("30-50");
             CbFilterPrice.SelectedItem = CbFilterPrice.Items[0];
         }
-
         private void LoadSort()
         {
-            CbSort.Items.Add("Без сортировки");
-            CbSort.Items.Add("По возрастанию");
-            CbSort.Items.Add("По убыванию");
+            CbSort.Items.Add("Без фильтров");
+            CbSort.Items.Add("По воз");
+            CbSort.Items.Add("По убыв");
             CbSort.SelectedItem = CbSort.Items[0];
+
         }
 
-        private void CountOfRows()
+        private void AmountOfRows()
         {
-            using (ObuvEntities obuvEntities = new ObuvEntities())
+            using (ObuvEntities obuv = new ObuvEntities())
             {
-                label1.Text = $"{dataGridView1.Rows.Count.ToString()} из {obuvEntities.Product.Count()}";
+                label1.Text = $"{ dataGridView1.Rows.Count.ToString()} из {obuv.Product.Count()}";
             }
         }
 
         Bitmap bitmap;
-        /// <summary>
-        /// Заполнение каталога
-        /// </summary>
         private void FillGrid()
         {
-            
-            string path = @"C:\Users\yuran\source\repos\Podgotovka\Podgotovka\Resources\";
             dataGridView1.Rows.Clear();
-            using (ObuvEntities obuvEntities = new ObuvEntities())
+            string path = @"C:\Users\yuran\source\repos\Podgotovka\Podgotovka\Resources\";
+            using (ObuvEntities obuv = new ObuvEntities())
             {
+                var product = obuv.Product.ToList();
 
-                var products = obuvEntities.Product.ToList();
+                switch(CbFilterPrice.SelectedIndex)
+                {
+                    default:
+                        break;
+                    case 1:
+                        product = product.Where(x=> x.productActiveDiscountAmount >= 1 && x.productActiveDiscountAmount <= 15).ToList();
+                        break;
+                    case 2:
+                        product = product.Where(x => x.productActiveDiscountAmount >= 15 && x.productActiveDiscountAmount <= 30).ToList();
+                        break;
+                    case 3:
+                        product = product.Where(x => x.productActiveDiscountAmount >= 30 && x.productActiveDiscountAmount <= 50).ToList();
+                        break;
+                }
 
                 switch (CbSort.SelectedIndex)
                 {
                     default:
                         break;
                     case 1:
-                        products = products.OrderBy(x => x.productCost).ToList();
+                        product = product.OrderBy(x => x.productCost).ToList();
                         break;
                     case 2:
-                        products = products.OrderByDescending(x => x.productCost).ToList();
+                        product = product.OrderByDescending(x => x.productCost).ToList();
                         break;
+                    
                 }
 
-                switch (CbFilterPrice.SelectedIndex)
+                for(int i=0; i< product.Count; i++)
                 {
-                    default:
-                        break;
-                    case 1:
-                        products = products.Where(x=> x.productActiveDiscountAmount >= 1 && x.productActiveDiscountAmount <= 15).ToList();
-                        break;
-                    case 2:
-                        products = products.Where(x => x.productActiveDiscountAmount >= 15 && x.productActiveDiscountAmount <= 30).ToList();
-                        break;
-                    case 3:
-                        products = products.Where(x => x.productActiveDiscountAmount >= 30 && x.productActiveDiscountAmount <= 50).ToList();
-                        break;
-                }
-       
-                for (int i = 0; i < products.Count; i++) 
-                {
-                    if (i != products.Count() - 1)
+                    if (i != product.Count() - 1)
                         dataGridView1.Rows.Add();
 
-                    byte? discount = products.Select(x=> x.productActiveDiscountAmount).ToArray()[i];
-
-                    if (!discount.Equals(null)) 
+                    byte? discount = product.Select(x=> x.productActiveDiscountAmount).ToArray()[i];
+                    if (discount != null)
                     {
                         dataGridView1.Rows[i].Cells[1].Value =
-                            $"Название продукта {products.Select(x => x.productName).ToArray()[i]}\n" +
-                            $"Цена {Math.Round((decimal)products.Select(x => x.productCost).ToArray()[i], 0)}\n" +
-                            $"Скидка {products.Select(x => x.productActiveDiscountAmount).ToArray()[i]}\n";
-                            
+                            $"Наименование: {product.Select(x => x.productName).ToArray()[i]}\n" +
+                            $"Стоимость: {product.Select(x => x.productCost).ToArray()[i]}\n" +
+                            $"Скидка: {product.Select(x => x.productActiveDiscountAmount).ToArray()[i]}\n";
+                           
                         dataGridView1.Rows[i].Cells[2].Style.Font = new Font(dataGridView1.Font, FontStyle.Strikeout);
-                        dataGridView1.Rows[i].Cells[2].Value = $"Цена со скидкой {Math.Round((decimal)(products.Select(x => x.productCost).ToArray()[i] - products.Select(x => x.productCost).ToArray()[i] * products.Select(x => x.productActiveDiscountAmount).ToArray()[i] / 100), 0)} ";
+                        dataGridView1.Rows[i].Cells[2].Value = $"Стоимость со сккидкой: {Math.Round((decimal)(product.Select(x => x.productCost).ToArray()[i] - product.Select(x => x.productCost).ToArray()[i] * product.Select(x => x.productActiveDiscountAmount).ToArray()[i] / 100))}\n";
                     }
                     else
                     {
                         dataGridView1.Rows[i].Cells[1].Value =
-                            $"Название продукта {products.Select(x => x.productName).ToArray()[i]}\n" +
-                            $"Цена {Math.Round((decimal)products.Select(x => x.productCost).ToArray()[i], 0)}\n";
-
+                            $"Наименование: {product.Select(x => x.productName).ToArray()[i]}\n" +
+                            $"Стоимость: {product.Select(x => x.productCost).ToArray()[i]}\n";
                     }
-                    if(products.Select(x=> x.productActiveDiscountAmount).ToArray()[i]>= 15)
-                    {
-                        dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.FromArgb(0x96, 0x81, 0x9B); 
-                    }
-
-                    var pic = products.Select(x=>x.productPicture).ToArray()[i];
+                    var pic = product.Select(x=> x.productPicture).ToArray()[i];
                     if(!String.IsNullOrEmpty(pic))
                     {
                         bitmap = new Bitmap(path + pic + ".jpg");
-                        bitmap = new Bitmap(bitmap, 128,128);
+                        bitmap = new Bitmap(bitmap, 128, 128);
                     }
                     else
                     {
@@ -135,17 +125,27 @@ namespace Podgotovka
                         bitmap = new Bitmap(bitmap, 128, 128);
                     }
                     dataGridView1.Rows[i].Cells[0].Value = bitmap;
-              
+
+                    if(product.Select(x=> x.productActiveDiscountAmount).ToArray()[i]>=15)
+                    {
+                        dataGridView1.Rows[i].DefaultCellStyle.BackColor = Color.FromArgb(0x42, 0x62, 0x27);
+                    }
+
                 }
+
+
+
+
+
             }
 
-            CountOfRows();
 
+            AmountOfRows();
         }
 
         private void CbFilterPrice_SelectedIndexChanged(object sender, EventArgs e)
         {
-            FillGrid(); 
+            FillGrid();
         }
 
         private void CbSort_SelectedIndexChanged(object sender, EventArgs e)
