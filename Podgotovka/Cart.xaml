@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfAppVetclinic.Cart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppVetclinic"
+        mc:Ignorable="d"
+        Title="Cart" Height="450" Width="800">
+    <Grid >
+        <ListView Grid.Row="1" Name="listProductsCart"  Grid.ColumnSpan="5" Margin="32,10,39,62" Grid.RowSpan="2">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="10" Width="700" Height="150">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"></RowDefinition>
+                            <RowDefinition Height="auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Width="160" Height="160" Grid.Row="0" Stretch="UniformToFill" HorizontalAlignment="Left" Margin="5 0 0 300">
+                            <Image.Source>
+                                <Binding Path ="productPhoto">
+                                    <Binding.TargetNullValue>
+                                        <ImageSource>Resources/defPic.jpg</ImageSource>
+                                    </Binding.TargetNullValue>
+                                </Binding>
+                            </Image.Source>
+                        </Image>
+                        <TextBlock Text="{Binding productName}" TextAlignment="Center" Width="250" 
+                                   HorizontalAlignment="Right" Margin="0 20 200 0" FontSize ="20" Grid.Row="0"></TextBlock>
+                        <TextBlock Text="{Binding categoryName}" HorizontalAlignment="Right" Margin="10 5 5 12" FontSize ="26" FontWeight="Bold" Grid.Row="3"></TextBlock>
+                        <TextBlock Text="{Binding productCost, StringFormat={}Стоимость: {0}}" Margin="0 60 400 0" 
+                                   TextAlignment="Center" HorizontalAlignment="Right"  FontSize ="14" Grid.Row="0"></TextBlock>
+                        <TextBlock Text="{Binding productID, StringFormat={}ID продукта: {0}}" Margin="0 80 400 0" 
+                                   TextAlignment="Center" HorizontalAlignment="Right"  FontSize ="14" Grid.Row="0"></TextBlock>
+                        <Button Content="Удалить" Click="ButtonDeleteFromOrder_Click"  Margin="505,60,44,348"  Width="90"/>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <TextBlock x:Name="tbCost" Text="0" HorizontalAlignment="Right" Margin="0,371,338,15" FontSize ="14" FontWeight="Bold" Width="188"/>
+        <TextBlock x:Name="tbCountProd" Text="0" HorizontalAlignment="Right" Margin="0,371,531,18" FontSize ="14" FontWeight="Bold" Width="203"/>
+        <Button x:Name="btAddProd" Content="Оформить заказ" HorizontalAlignment="Left" Margin="657,357,0,0" VerticalAlignment="Top" Width="119" Height="57" Click="CreateOrder" FontSize="10"/>
+        <TextBlock x:Name="tbCountAddress" Text="0" HorizontalAlignment="Right" Margin="0,363,130,8" FontSize ="14" FontWeight="Bold" Width="203"/>
+
+
+    </Grid>
+</Window>
