@@ -1,0 +1,10 @@
+C:\Users\yuran\source\repos\DB\DB\bin\Debug\DB.exe.config
+C:\Users\yuran\source\repos\DB\DB\bin\Debug\DB.exe
+C:\Users\yuran\source\repos\DB\DB\bin\Debug\DB.pdb
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.Form1.resources
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.Properties.Resources.resources
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.exe
+C:\Users\yuran\source\repos\DB\DB\obj\Debug\DB.pdb

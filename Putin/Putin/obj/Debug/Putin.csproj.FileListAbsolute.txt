@@ -1,0 +1,15 @@
+C:\Users\yuran\source\repos\Putin\Putin\bin\Debug\Putin.exe.config
+C:\Users\yuran\source\repos\Putin\Putin\bin\Debug\Putin.exe
+C:\Users\yuran\source\repos\Putin\Putin\bin\Debug\Putin.pdb
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.Form1.resources
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.Properties.Resources.resources
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.exe
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.pdb
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.Form2.resources
+C:\Users\yuran\source\repos\Putin\Putin\bin\Debug\Putin.exe.manifest
+C:\Users\yuran\source\repos\Putin\Putin\bin\Debug\Putin.application
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.exe.manifest
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.application
+C:\Users\yuran\source\repos\Putin\Putin\obj\Debug\Putin.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\bin\Debug\Практика Полякова.exe.config
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\bin\Debug\Практика Полякова.exe
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\bin\Debug\Практика Полякова.pdb
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика Полякова.csprojAssemblyReference.cache
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика_Полякова.Form1.resources
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика_Полякова.Properties.Resources.resources
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика Полякова.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика Полякова.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика Полякова.exe
+C:\Users\yuran\source\repos\Практика Полякова\Практика Полякова\obj\Debug\Практика Полякова.pdb

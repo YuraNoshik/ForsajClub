@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ngAz0TnV94FZmF9y5CWeZrLFO9ybZ1voYaiqLY6g10wNW93aOMqfQx/SzNo0+3/lJbP8gWQnOcHRPo5X6/GZCQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuran\\source\\repos\\rfid test\\rfid test\\rfid test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuran\\.nuget\\packages\\nfc-acr122u\\1.0.0\\nfc-acr122u.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

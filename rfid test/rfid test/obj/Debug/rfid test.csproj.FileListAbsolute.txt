@@ -1,0 +1,11 @@
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.csproj.SuggestedBindingRedirects.cache
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\rfid test\rfid test\bin\Debug\rfid test.exe.config
+C:\Users\yuran\source\repos\rfid test\rfid test\bin\Debug\rfid test.exe
+C:\Users\yuran\source\repos\rfid test\rfid test\bin\Debug\rfid test.pdb
+C:\Users\yuran\source\repos\rfid test\rfid test\bin\Debug\PCSC.dll
+C:\Users\yuran\source\repos\rfid test\rfid test\bin\Debug\Sydesoft.NfcDevice.ACR122U.dll
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.csproj.CopyComplete
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.exe
+C:\Users\yuran\source\repos\rfid test\rfid test\obj\Debug\rfid test.pdb

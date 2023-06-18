@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="46128b5735ae4ce3bd1c7a0e353a2fee" Name="Diagram1">
+        <EntityTypeShape EntityType="FitnessClubForsajModel.Classes" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.ClassTypes" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.Clients" Width="1.5" PointX="0.75" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.Memberships" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.Payments" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.Trainers" Width="1.5" PointX="1.5" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="FitnessClubForsajModel.VisitHistory" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="FitnessClubForsajModel.FK__Classes__Trainer__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="FitnessClubForsajModel.FK__VisitHist__Class__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="FitnessClubForsajModel.FK__Payments__Client__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="FitnessClubForsajModel.FK__VisitHist__Clien__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="FitnessClubForsajModel.FK__Payments__Member__4316F928" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

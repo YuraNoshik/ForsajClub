@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "il+Lw54RUR1QJfNLdbmuTdMtiJCRFG26jluc4jL7sNarq8JZZY1WREXTSTKl7hXFOvTnvgox4JaGoJW4Q7kq3w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuran\\source\\repos\\NFCtester\\NFCtester\\NFCtester.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuran\\.nuget\\packages\\liblogicalaccessnetce\\2.5.0\\liblogicalaccessnetce.2.5.0.nupkg.sha512",
+    "C:\\Users\\yuran\\.nuget\\packages\\pcsc\\6.1.3\\pcsc.6.1.3.nupkg.sha512",
+    "C:\\Users\\yuran\\.nuget\\packages\\pcsc.iso7816\\6.1.3\\pcsc.iso7816.6.1.3.nupkg.sha512",
+    "C:\\Users\\yuran\\.nuget\\packages\\smartcardservice\\1.1.0\\smartcardservice.1.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

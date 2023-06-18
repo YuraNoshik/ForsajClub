@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "bTEhHZ9FKL1tKlN5Otgeh16TsXlYbr2lSYGW1nR+qgo2MHhQr8ObTdQXbO3KHDk3k4r6KFtgr4huDib8fvBH8A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuran\\source\\repos\\FitnessClubForsaj\\FitnessClubForsaj\\FitnessClubForsaj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuran\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\yuran\\.nuget\\packages\\entityframework.ru\\6.2.0\\entityframework.ru.6.2.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Версия обнаруженного пакета нарушает ограничение зависимости: EntityFramework.ru 6.2.0 требуется EntityFramework (= 6.2.0), но в результате разрешения получена версия EntityFramework 6.4.4.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.7.2",
+        ".NETFramework,Version=v4.7.2/win",
+        ".NETFramework,Version=v4.7.2/win-x64",
+        ".NETFramework,Version=v4.7.2/win-x86"
+      ]
+    }
+  ]
+}

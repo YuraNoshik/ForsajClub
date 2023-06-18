@@ -1,0 +1,13 @@
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\bin\Debug\KursachMuravev.exe.config
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\bin\Debug\KursachMuravev.exe
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\bin\Debug\KursachMuravev.pdb
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.Form1.resources
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.Properties.Resources.resources
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.exe
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.pdb
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.Form2.resources
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.Form3.resources
+C:\Users\yuran\source\repos\KursachMuravev\KursachMuravev\obj\Debug\KursachMuravev.Form4.resources

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище TelefonModel" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <EntityType Name="Abonent">
+    <Key>
+      <PropertyRef Name="Number" />
+    </Key>
+    <Property Name="Number" Type="int" Nullable="false" />
+    <Property Name="LastName" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="FirstName" Type="char" MaxLength="20" Nullable="false" />
+    <Property Name="DatePayment" Type="date" Nullable="false" />
+    <Property Name="Payment" Type="float" />
+  </EntityType>
+  <EntityContainer Name="Хранилище TelefonModelContainer">
+    <EntitySet Name="Abonent" EntityType="Self.Abonent" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

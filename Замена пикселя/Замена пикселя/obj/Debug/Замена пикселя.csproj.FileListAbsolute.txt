@@ -1,0 +1,9 @@
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\bin\Debug\Замена пикселя.exe
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\bin\Debug\Замена пикселя.pdb
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена пикселя.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена_пикселя.Form1.resources
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена_пикселя.Properties.Resources.resources
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена пикселя.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена пикселя.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена пикселя.exe
+C:\Users\yuran\source\repos\Замена пикселя\Замена пикселя\obj\Debug\Замена пикселя.pdb

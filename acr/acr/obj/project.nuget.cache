@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/s4PiKzUTQUaeZ6uNd/Deh7vKBekLljRv5u/sjgmitTixOlgBo4pHV/U/zieQUdUjCi6/BTSjGbDHmR8VZcgSw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yuran\\source\\repos\\acr\\acr\\acr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yuran\\.nuget\\packages\\nfc-acr122u\\1.0.0\\nfc-acr122u.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+  <EntityContainerMapping StorageEntityContainer="Хранилище TelefonModelContainer" CdmEntityContainer="TelefonEntities">
+    <EntitySetMapping Name="Abonent">
+      <EntityTypeMapping TypeName="TelefonModel.Abonent">
+        <MappingFragment StoreEntitySet="Abonent">
+          <ScalarProperty Name="Number" ColumnName="Number" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="DatePayment" ColumnName="DatePayment" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

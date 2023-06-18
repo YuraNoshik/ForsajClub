@@ -1,0 +1,9 @@
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\bin\Debug\PerehodPolyakova.exe
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\bin\Debug\PerehodPolyakova.pdb
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.Form1.resources
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.Properties.Resources.resources
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.exe
+C:\Users\yuran\source\repos\PerehodPolyakova\PerehodPolyakova\obj\Debug\PerehodPolyakova.pdb

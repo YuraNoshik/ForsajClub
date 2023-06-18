@@ -1,0 +1,40 @@
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe.config
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.pdb
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csprojAssemblyReference.cache
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Form1.resources
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Properties.Resources.resources
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.GenerateResource.cache
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.CoreCompileInputs.cache
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.exe
+C:\Users\Xiaomi\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.pdb
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\bin\Debug\groupbox1.exe.config
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\bin\Debug\groupbox1.exe
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\bin\Debug\groupbox1.pdb
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.csprojAssemblyReference.cache
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.Form1.resources
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.Properties.Resources.resources
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.GenerateResource.cache
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.CoreCompileInputs.cache
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.exe
+C:\Users\vasil\OneDrive\Рабочий стол\groupbox1\groupbox1\obj\Debug\groupbox1.pdb
+C:\Users\vasil\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe.config
+C:\Users\vasil\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe
+C:\Users\vasil\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.pdb
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csprojAssemblyReference.cache
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Form1.resources
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Properties.Resources.resources
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.GenerateResource.cache
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.CoreCompileInputs.cache
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.exe
+C:\Users\vasil\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.pdb
+C:\Users\yuran\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe.config
+C:\Users\yuran\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.exe
+C:\Users\yuran\source\repos\groupbox1\groupbox1\bin\Debug\groupbox1.pdb
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csprojAssemblyReference.cache
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Form1.resources
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.Properties.Resources.resources
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.exe
+C:\Users\yuran\source\repos\groupbox1\groupbox1\obj\Debug\groupbox1.pdb

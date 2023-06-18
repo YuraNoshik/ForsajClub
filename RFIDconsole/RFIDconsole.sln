@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFIDconsole", "RFIDconsole\RFIDconsole.csproj", "{8E534608-9E42-4102-8675-F2C05DE5F593}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E534608-9E42-4102-8675-F2C05DE5F593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E534608-9E42-4102-8675-F2C05DE5F593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E534608-9E42-4102-8675-F2C05DE5F593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E534608-9E42-4102-8675-F2C05DE5F593}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6420A534-D077-4A78-B158-C07681D10B42}
+	EndGlobalSection
+EndGlobal

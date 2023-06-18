@@ -1,0 +1,11 @@
+C:\Users\yuran\source\repos\acr\acr\bin\Debug\acr.exe.config
+C:\Users\yuran\source\repos\acr\acr\bin\Debug\acr.exe
+C:\Users\yuran\source\repos\acr\acr\bin\Debug\acr.pdb
+C:\Users\yuran\source\repos\acr\acr\bin\Debug\PCSC.dll
+C:\Users\yuran\source\repos\acr\acr\bin\Debug\Sydesoft.NfcDevice.ACR122U.dll
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.csproj.SuggestedBindingRedirects.cache
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.csproj.CopyComplete
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.exe
+C:\Users\yuran\source\repos\acr\acr\obj\Debug\acr.pdb

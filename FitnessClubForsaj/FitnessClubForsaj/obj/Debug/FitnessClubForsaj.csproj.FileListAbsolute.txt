@@ -1,0 +1,12 @@
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.csproj.AssemblyReference.cache
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.csproj.SuggestedBindingRedirects.cache
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\MainWindow.g.cs
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\App.g.cs
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj_Content.g.cs
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj_MarkupCompile.cache
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj_MarkupCompile.lref
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\MainWindow.baml
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.g.resources
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.Properties.Resources.resources
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\FitnessClubForsaj\FitnessClubForsaj\obj\Debug\FitnessClubForsaj.csproj.CoreCompileInputs.cache

@@ -1,0 +1,10 @@
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\bin\Debug\YuriyNoshik.exe.config
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\bin\Debug\YuriyNoshik.exe
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\bin\Debug\YuriyNoshik.pdb
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.Form1.resources
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.Properties.Resources.resources
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.exe
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.pdb
+C:\Users\yuran\source\repos\YuriyNoshik\YuriyNoshik\obj\Debug\YuriyNoshik.csprojAssemblyReference.cache

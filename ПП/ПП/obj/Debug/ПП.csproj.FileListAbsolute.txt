@@ -1,0 +1,12 @@
+C:\Users\yuran\source\repos\ПП\ПП\bin\Debug\ПП.exe.config
+C:\Users\yuran\source\repos\ПП\ПП\bin\Debug\ПП.exe
+C:\Users\yuran\source\repos\ПП\ПП\bin\Debug\ПП.pdb
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.csprojAssemblyReference.cache
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.Form1.resources
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.Properties.Resources.resources
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.csproj.GenerateResource.cache
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.csproj.CoreCompileInputs.cache
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.exe
+C:\Users\yuran\source\repos\ПП\ПП\obj\Debug\ПП.pdb
+C:\Users\yuran\source\repos\ПП\ПП\bin\Debug\Graphics.mdf
+C:\Users\yuran\source\repos\ПП\ПП\bin\Debug\Graphics_log.ldf

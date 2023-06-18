@@ -1,0 +1,46 @@
+﻿<Page x:Class="Forsaj.Views.Sales"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Forsaj.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="482" d:DesignWidth="586"
+      Title="Sales">
+
+    <Grid>
+        <Grid>
+            <ListView x:Name="listProducts" Margin="0,57,0,0" Background="#a4a4a4" Opacity="0.4" Width="586" >
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListItem}">
+                        <Setter Property="Cursor" Value="Hand"/>
+                        <Style.Triggers>
+                            <Trigger Property="ItemsControl.AlternationIndex" Value="0">
+                                <Setter Property="Background" Value="#ea7423" />
+                            </Trigger>
+                            <Trigger Property="ItemsControl.AlternationIndex" Value="1">
+                                <Setter Property="Background" Value="#ea7423" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+
+            </ListView>
+            <DatePicker HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="95,22,0,0" VerticalAlignment="Top" Height="29" Width="162"/>
+            <TextBlock Text="Начало периода"
+            Foreground="White"
+            FontSize="12"
+            FontWeight="Medium"
+            FontFamily="Montserrat"                             
+            Margin="95,4,363,463" RenderTransformOrigin="0.5,0.533"/>
+            <DatePicker HorizontalAlignment="Left" VerticalContentAlignment="Center" Margin="360,23,0,0" VerticalAlignment="Top" Height="29" Width="162"/>
+            <TextBlock Text="Конец периода"
+                Foreground="White"
+                FontSize="12"
+                FontWeight="Medium"
+                FontFamily="Montserrat"                             
+                Margin="360,5,98,462" RenderTransformOrigin="0.5,0.533"/>
+
+        </Grid>
+    </Grid>
+</Page>
